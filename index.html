@@ -1,0 +1,966 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Delicious Patisserie </title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="favicon.svg" rel="icon">
+  <link href="favicon.svg" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,600,600i,700,700i|Satisfy|Comic+Neue:300,300i,400,400i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- ======= Top Bar ======= 
+  <section id="topbar" class="d-flex align-items-center fixed-top topbar-transparent">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-center justify-content-lg-start">
+      <i class="bi bi-phone d-flex align-items-center"><span>+1 5589 55488 55</span></i>
+      <i class="bi bi-clock ms-4 d-none d-lg-flex align-items-center"><span>Mon-Sat: 11:00 AM - 23:00 PM</span></i>
+    </div>
+  </section>   -->
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center header-transparent">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <div class="logo me-auto">
+        <h1><a href="index.html">Delicious</a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      </div>
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Accueil</a></li>
+          <li><a class="nav-link scrollto" href="#about">A propos</a></li>
+          <li><a class="nav-link scrollto" href="#menu">Les Delices</a></li>
+          <li><a class="nav-link scrollto" href="#specials">Speciales</a></li>
+          <li><a class="nav-link scrollto" href="#events">Evenements</a></li>
+          <li><a class="nav-link scrollto" href="#gallery">Images</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          <a href="login.html" class="book-a-table-btne scrollto"><h5 class="lo">Login</h5></a>
+        </ul>
+        
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+      
+      <a href="#book-a-table" class="book-a-table-btn scrollto">Commande</a>
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div class="hero-container">
+      <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+        <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+        <div class="carousel-inner" role="listbox">
+
+          <!-- Slide 1 -->
+          <div class="carousel-item active" style="background-image: url(assets/img/slide/slide-1.jpg);">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2 class="animate__animated animate__fadeInDown"><span>Delicious</span> Patisserie</h2>
+                <p class="animate__animated animate__fadeInUp">La Patisserie qui vous offres les delices les plus delicieux et les plus raffraichissantes dans le respect des règles d'hygiène.Passez vos commandes et recevez le gratutement chez vous....</p>
+                <div>
+                  <a href="#menu" style="margin-bottom: 15px;" class="btn-menu animate__animated animate__fadeInUp scrollto">Les Delices</a>
+                  <a href="#book-a-table" class="btn-book animate__animated animate__fadeInUp scrollto">Passez Commande</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="carousel-item" style="background-image: url(assets/img/HEADER_COURS.jpg);">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2 class="animate__animated animate__fadeInDown">La qualité est  <span>notre priorité</span></h2>
+                <p class="animate__animated animate__fadeInUp">Les delices de meilleures qualité vous sont proposeés à un coût très abordable pour vous permettre d'en déguster au tant que vous le pouvez.Decouvrez vous même  le goût  de nos delices.</p>
+                <div>
+                  <a href="#menu" style="margin-bottom: 15px;"  class="btn-menu animate__animated animate__fadeInUp scrollto">Les Delices</a>
+                  <a href="#book-a-table" class="btn-book animate__animated animate__fadeInUp scrollto">Passez Commande</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="carousel-item" style="background-image: url(assets/img/patisserie.jpg);">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2 class="animate__animated animate__fadeInDown"> <span>Livraison Gratuite </span> et securiseé</h2>
+                <p class="animate__animated animate__fadeInUp">Recevez vos commandes depuis chez vous sans vous gêné  et cela gratuitement.Nous assurons la securité de vos commandes jusqu'à la destination.Commandez-nous en cliquant sur le boutton Passez Commande.</p>
+                <div>
+                  <a href="#menu" style="margin-bottom: 15px;"  class="btn-menu animate__animated animate__fadeInUp scrollto">Les Delices</a>
+                  <a href="#book-a-table" class="btn-book animate__animated animate__fadeInUp scrollto">Passez Commande</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+        </a>
+
+        <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+        </a>
+
+      </div>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container-fluid">
+
+        <div class="section-title   animate__animated animate__fadeInUp">
+          <h2 class="tio" >A propos de <span>Delicious</span></h2>
+        </div>
+
+        <div class="row "  data-aos="fade-up"
+             data-aos-anchor-placement="top-bottom">
+
+          <div class="col-lg-5 align-items-stretch video-box hy   animate__animated animate__fadeInUp" style='background-image: url("assets/img/ab.png");height: 350px;'>
+            <a href="assets/img/Publicité Bekhchi's - Gâteaux d'Émotions.mp4" class="venobox play-btn mb-4"  data-vbtype="video" data-autoplay="true"></a>
+          </div>
+
+          <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch    animate__animated animate__fadeInUp">
+
+            <div class="content">
+              <h3> Deliouce est une Patisserie qui vous offres <strong> des delices </strong></h3>
+              <p>
+               Nous vous offrons des delices de meilleures qualité et à moins coût.Nos delices sont produites par des experts du dommaine dans le respect strict des règles d'hygiène.
+              </p>
+              <p class="fst-italic">
+               Nous offrons plusieurs categorie de delices:
+              </p>
+              <ul>
+                <li><i class="bx bx-check-double"></i> Les Frites</li>
+                <li><i class="bx bx-check-double"></i> Les Sandwich.</li>
+                <li><i class="bx bx-check-double"></i> Les Boissons.</li>
+              </ul>
+              <p>
+              Contactez-nous pour tous vos besions de delices et vous serez servir dans un temps bref.
+              </p>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Whu Us Section ======= -->
+    <section id="why-us" class="why-us">
+      <div class="container">
+
+        <div class="section-title">
+          <h2  class="tio">Pourquoi choisir <span>Notre patisserie</span></h2>
+          <p>Plusieurs raisons preferer la patisserie Deliouce pour vos delices</p>
+        </div>
+
+        <div class="row"  >
+
+          <div class="col-lg-4"  data-aos="fade-up"  data-aos-duration="1000" >
+            <div class="box">
+              <span>01</span>
+              <h4>La Qualité</h4>
+              <p>Nous offrons dans notre patisserie des delices de meilleures qualité.  </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4 mt-lg-0"    data-aos="fade-up"  data-aos-duration="2000">
+            <div class="box">
+              <span>02</span>
+              <h4>Le Goût</h4>
+              <p>Nos Delices sont delicieux et raffraichissantes et adaptables à vos besions.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4 mt-lg-0"   data-aos="fade-up"  data-aos-duration="3000">
+            <div class="box">
+              <span>03</span>
+              <h4> Le coût</h4>
+              <p>Nos Delices sont vendues a des prix moins chers pour vous permettre de déguster.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Whu Us Section -->
+
+    <!-- ======= Menu Section ======= -->
+    <section id="menu" class="menu" >
+      <div class="container">
+
+        <div class="section-title">
+          <h2   class="tio">Choissez vos <span>Delices préféré </span></h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="menu-flters">
+              <li data-filter="*" class="filter-active">Tous</li>
+              <li data-filter=".filter-biscuts">Biscuits</li>
+              <li data-filter=".filter-pizza">Pizza</li>
+              <li data-filter=".filter-sandwish">Sandwich</li>
+              <li data-filter=".filter-boissons">Boisons</li>
+              <li data-filter=".filter-frites">Frites</li>
+              <li data-filter=".filter-gateaux">Gateaux</li>
+              <li data-filter=".filter-yaourt">Yaourt</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row menu-container"  data-aos="fade-up"
+             data-aos-anchor-placement="top-bottom" >
+
+          <div class="col-lg-3 menu-item filter-biscuts">
+            <div class="food-menu-card">
+
+              <div class="card-banner">
+                <img src="assets/img/biscuit_PNG124.png" width="270" height="220" loading="lazy"
+                  alt="Fried Chicken Unlimited" class="w-100">
+
+                <button class="btn food-menu-btn">Commande</button>
+              </div>
+
+              <div class="wrapper">
+                <p class="category">Biscuits</p>
+
+                <div class="rating-wrapper">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+              </div>
+
+              <h3 class="h3 card-title  ">Biscuits</h3>
+
+              <div class="price-wrapper">
+
+                <p class="price-text">Prix:</p>
+
+                <data class="price">500 f</data>
+
+                <del class="del" value="1000">1000 f</del>
+
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-3 menu-item filter-biscuts">
+            <div class="food-menu-card">
+
+              <div class="card-banner">
+                <img src="assets/img/biscuit_PNG16.png" width="270" height="180" loading="lazy"
+                  alt="Fried Chicken Unlimited" class="w-100">
+
+                <button class="btn food-menu-btn">Commande</button>
+              </div>
+
+              <div class="wrapper">
+                <p class="category">Biscuits</p>
+
+                <div class="rating-wrapper">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+              </div>
+
+              <h3 class="h3 card-title  ">Biscuits</h3>
+
+              <div class="price-wrapper">
+
+                <p class="price-text">Prix:</p>
+
+                <data class="price">500 f</data>
+
+                <del class="del" value="1000">1000 f</del>
+
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-3 menu-item filter-sandwish">
+            <div class="food-menu-card">
+
+              <div class="card-banner">
+                <img src="assets/img/burger_sandwich_PNG4130.png" width="270" height="200" loading="lazy"
+                  alt="Fried Chicken Unlimited" class="w-100">
+
+                <button class="btn food-menu-btn">Commande</button>
+              </div>
+
+              <div class="wrapper">
+                <p class="category">Sandwich</p>
+
+                <div class="rating-wrapper">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+              </div>
+
+              <h3 class="h3 card-title  ">Sandwich</h3>
+
+              <div class="price-wrapper">
+
+                <p class="price-text">Prix:</p>
+
+                <data class="price">1000 f</data>
+
+                <del class="del" value="1500">1500 f</del>
+
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-3 menu-item filter-pizza">
+            <div class="food-menu-card">
+
+              <div class="card-banner">
+                <img src="assets/img/pizza_PNG44088.png" width="270" height="200" loading="lazy"
+                  alt="Fried Chicken Unlimited" class="w-100">
+
+                <button class="btn food-menu-btn">Commande</button>
+              </div>
+
+              <div class="wrapper">
+                <p class="category">Pizza</p>
+
+                <div class="rating-wrapper">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+              </div>
+
+              <h3 class="h3 card-title  ">Bon Pizza </h3>
+
+              <div class="price-wrapper">
+
+                <p class="price-text">Prix:</p>
+
+                <data class="price"> 1000 f</data>
+
+                <del class="del" value="1500">1500 f</del>
+
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-3 menu-item filter-boissons">
+            <div class="food-menu-card">
+
+              <div class="card-banner">
+                <img src="assets/img/wine_PNG99044.png" width="270" height="200" loading="lazy"
+                  alt="Fried Chicken Unlimited" class="w-100">
+
+                <button class="btn food-menu-btn">Commande</button>
+              </div>
+
+              <div class="wrapper">
+                <p class="category">Boisons</p>
+
+                <div class="rating-wrapper">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+              </div>
+
+              <h3 class="h3 card-title  ">Bissons</h3>
+
+              <div class="price-wrapper">
+
+                <p class="price-text">Prix:</p>
+
+                <data class="price">5000 f</data>
+
+                <del class="del" value="8000">8000 f</del>
+
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-3 menu-item filter-frites">
+            <div class="food-menu-card">
+
+              <div class="card-banner">
+                <img src="assets/img/fries_PNG58.png" width="270" height="180" loading="lazy"
+                  alt="Fried Chicken Unlimited" class="w-100">
+
+                <button class="btn food-menu-btn">Commande</button>
+              </div>
+
+              <div class="wrapper">
+                <p class="category">Frites</p>
+
+                <div class="rating-wrapper">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+              </div>
+
+              <h3 class="h3 card-title  ">Les Frites </h3>
+
+              <div class="price-wrapper">
+
+                <p class="price-text">Prix:</p>
+
+                <data class="price">1000 f</data>
+
+                <del class="del" value="1500">1500 f</del>
+
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-3 menu-item filter-yaourt">
+            <div class="food-menu-card">
+
+              <div class="card-banner">
+                <img src="assets/img/yogurt_PNG15202.png" width="270" height="200" loading="lazy"
+                  alt="Fried Chicken Unlimited" class="w-100">
+
+                <button class="btn food-menu-btn">Commande</button>
+              </div>
+
+              <div class="wrapper">
+                <p class="category">Yaourt</p>
+
+                <div class="rating-wrapper">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+              </div>
+
+              <h3 class="h3 card-title  ">Du Yaourt </h3>
+
+              <div class="price-wrapper">
+
+                <p class="price-text">Prix:</p>
+
+                <data class="price">500f</data>
+
+                <del class="del" value="800">800 f</del>
+
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-3 menu-item filter-gateaux">
+            <div class="food-menu-card">
+
+              <div class="card-banner">
+                <img src="assets/img/chocolate_cake_PNG11.png" width="270" height="200" loading="lazy"
+                  alt="Fried Chicken Unlimited" class="w-100">
+
+                <button class="btn food-menu-btn">Commande</button>
+              </div>
+
+              <div class="wrapper">
+                <p class="category">Gâteaux</p>
+
+                <div class="rating-wrapper">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+              </div>
+
+              <h3 class="h3 card-title  ">Bon gâteau </h3>
+
+              <div class="price-wrapper">
+
+                <p class="price-text">Prix:</p>
+
+                <data class="price">10.000 f</data>
+
+                <del class="del" value="15000">15.000 f </del>
+
+              </div>
+
+            </div>
+          </div>
+
+      
+
+        </div>
+
+      </div>
+    </section><!-- End Menu Section -->
+
+    <!-- ======= Specials Section ======= -->
+    <section id="specials" class="specials">
+      <div class="container">
+
+        <div class="section-title">
+          <h2   class="tio">Offres <span> Speciales</span></h2>
+          <p>Deliouce Patisserie vous offres des mets special.</p>
+        </div>
+
+        <div class="row"   data-aos="fade-up-right">
+          <div class="col-lg-3">
+            <ul class="nav nav-tabs flex-column">
+              <li class="nav-item">
+                <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">Du Aloco</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-2">Poisson braisé</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-3">Poulet roti au four</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-4">spaghetti</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-5">wassawassa</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-9 mt-4 mt-lg-0">
+            <div class="tab-content">
+              <div class="tab-pane active show" id="tab-1">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Du Aloco de la cote d'ivoire</h3>
+                    <p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
+                    <p>Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero</p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/Alloco-300x200.jpg" style="border-radius: 15px;" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-2">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Du bon posson braiser</h3>
+                    <p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
+                    <p>Ea ipsum voluptatem consequatur quis est. Illum error ullam omnis quia et reiciendis sunt sunt est. Non aliquid repellendus itaque accusamus eius et velit ipsa voluptates. Optio nesciunt eaque beatae accusamus lerode pakto madirna desera vafle de nideran pal</p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/bar-grille-Adobestock_12732165.jpg" style="border-radius: 15px;" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-3">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>De delicieux poulet routi</h3>
+                    <p class="fst-italic">Eos voluptatibus quo. Odio similique illum id quidem non enim fuga. Qui natus non sunt dicta dolor et. In asperiores velit quaerat perferendis aut</p>
+                    <p> Neque necessitatibus illo rerum eum ut. Commodi ipsam minima molestiae sed laboriosam a iste odio. Earum odit nesciunt fugiat sit ullam. Soluta et harum voluptatem optio quae</p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/imayyges.jpg" style="border-radius: 15px;" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-4">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>De bon plat de spaghetti</h3>
+                    <p class="fst-italic">Totam aperiam accusamus. Repellat consequuntur iure voluptas iure porro quis delectus</p>
+                    <p>Eaque consequuntur consequuntur libero expedita in voluptas. Nostrum ipsam necessitatibus aliquam fugiat debitis quis velit. Eum ex maxime error in consequatur corporis atque. Eligendi asperiores sed qui veritatis aperiam quia a laborum inventore</p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/inddex.jpg" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-5">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Du bon wassawassa</h3>
+                    <p class="fst-italic">Omnis blanditiis saepe eos autem qui sunt debitis porro quia.</p>
+                    <p>Exercitationem nostrum omnis. Ut reiciendis repudiandae minus. Omnis recusandae ut non quam ut quod eius qui. Ipsum quia odit vero atque qui quibusdam amet. Occaecati sed est sint aut vitae molestiae voluptate vel</p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/wassa-1948x974.jpg" style="border-radius: 15px;" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Specials Section -->
+
+    <!-- ======= Events Section ======= -->
+    <section id="events" class="events">
+      <div class="container">
+
+        <div class="section-title">
+          <h2  class="tio">Delicious pour <span>la réussite</span> de vos Evenements</h2>
+        </div>
+
+        <div class="events-slider swiper"  data-aos="fade-up-left">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="row event-item">
+                <div class="col-lg-6">
+                  <img src="assets/img/event-birthday.jpg" style="height:320px ;" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0 content">
+                  <h3>Anniversaires</h3>
+                  <div class="price">
+                    <p><span>30.000f</span></p>
+                  </div>
+                  <p class="fst-italic">
+                  Passez vos commandes de gâteaux  pour la célébration  de vos Annniversaires
+                  </p>
+                  <ul>
+                    <li><i class="bi bi-check-circle"></i> Des Gâteaux à étages  chocolat.</li>
+                    <li><i class="bi bi-check-circle"></i> Des Gâteaux trois chocolat.</li>
+                    <li><i class="bi bi-check-circle"></i> Des Gâteaux Layer Cake aux Fraises.</li>
+                  </ul>
+                  <p>
+                    La réuissite de vos anniversaires dépend du gâteau dégusté par les invités
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="row event-item">
+                <div class="col-lg-6">
+                  <img src="assets/img/SarkCess.jpg" style="height:320px ;"  class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0 content">
+                  <h3>Mariages</h3>
+                  <div class="price">
+                    <p><span>50.000f</span></p>
+                  </div>
+                  <p class="fst-italic">
+                  Commandez des delices pour la célébration de votre mariages
+                  </p>
+                  <ul>
+                    <li><i class="bi bi-check-circle"></i> Des boisons(Champagne,la bière)</li>
+                    <li><i class="bi bi-check-circle"></i> Des frites (.....)</li>
+                    <li><i class="bi bi-check-circle"></i> Des Biscuits</li>
+                  </ul>
+                  <p>
+                    Imortaliser votre jour de mariages avec des delices de qualité supperieur 
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="row event-item">
+                <div class="col-lg-6">
+                  <img src="assets/img/Captur.jpg" style="height:320px ;"  class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0 content">
+                  <h3>Fete en Famille</h3>
+                  <div class="price">
+                    <p><span>40.000f</span></p>
+                  </div>
+                  <p class="fst-italic">
+                    Amusez-vous en famille en commandant des delices
+                  <ul>
+                    <li><i class="bi bi-check-circle"></i>  Des boisons(Champagne,la bière)</li>
+                    <li><i class="bi bi-check-circle"></i> Des frites (.....)</li>
+                    <li><i class="bi bi-check-circle"></i> Du Yaourt</li>
+                  </ul>
+                  <p>
+                    Passez de bon moment en famille avec nos delices
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Events Section -->
+
+    <!-- ======= Book A Table Section ======= -->
+    <section id="book-a-table" class="book-a-table">
+      <div class="container">
+
+        <div class="section-title">
+          <h2  class="tio">Faites votre <span>Commande</span></h2>
+          <p>Passez vos commandes et vos serez livré gratuitement a votre date et heure de réception </p>
+        </div>
+
+        <form action="forms/book-a-table.php" method="post" role="form" class="php-email-form"    data-aos="fade-up-right">
+          <div class="row"    >
+            <div class="col-lg-4 col-md-6 form-group">
+              <input type="text" name="name" class="form-control" id="name" placeholder="Votre Nom" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+              <div class="validate"></div>
+            </div>
+            <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
+              <input type="email" class="form-control" name="email" id="email" placeholder="Votre Email" data-rule="email" data-msg="Please enter a valid email">
+              <div class="validate"></div>
+            </div>
+            <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
+              <input type="text" class="form-control" name="phone" id="phone" placeholder="Votre Numero" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+              <div class="validate"></div>
+            </div>
+            <div class="col-lg-4 col-md-6 form-group mt-3">
+              <input type="text" name="date" class="form-control" id="date" placeholder="Date De Reception" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+              <div class="validate"></div>
+            </div>
+            <div class="col-lg-4 col-md-6 form-group mt-3">
+              <input type="text" class="form-control" name="time" id="time" placeholder="Heure De Reception" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+              <div class="validate"></div>
+            </div>
+            <div class="col-lg-4 col-md-6 form-group mt-3">
+              <input type="number" class="form-control" name="people" id="people" placeholder="Votre Emplacement" data-rule="minlen:1" data-msg="Please enter at least 1 chars">
+              <div class="validate"></div>
+            </div>
+          </div>
+          <div class="form-group mt-3">
+            <textarea class="form-control" name="message" rows="5" placeholder="Ce que vous voulez commande"></textarea>
+            <div class="validate"></div>
+          </div>
+          <div class="mb-3">
+            <div class="loading">Loading</div>
+            <div class="error-message"></div>
+            <div class="sent-message">Votre Commande est envoyé. Vous serez servir à tant. Merci !</div>
+          </div>
+          <div class="text-center"><button type="submit">Envoyer la Commande</button></div>
+        </form>
+
+      </div>
+    </section><!-- End Book A Table Section -->
+
+    <!-- ======= Gallery Section ======= -->
+    <section id="gallery" class="gallery">
+      <div class="container-fluid">
+
+        <div class="section-title">
+          <h2  class="tio">Quelques Photos De <span>Notre Patisserie</span></h2>
+          <p>Decouvrez notre patisserie.</p>
+        </div>
+
+        <div class="row g-0"   data-aos="flip-left"
+             data-aos-easing="ease-out-cubic"
+             data-aos-duration="2000">
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/place1.jpg" class="gallery-lightbox">
+                <img src="assets/img/place1.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/place3.jpg" class="gallery-lightbox">
+                <img src="assets/img/place3.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/place2.jpg" class="gallery-lightbox">
+                <img src="assets/img/place2.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/place1.jpg" class="gallery-lightbox">
+                <img src="assets/img/place1.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+     
+        </div>
+
+      </div>
+    </section><!-- End Gallery Section -->
+
+
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title">
+          <h2  class="tio"><span>Contactez -</span> Nous</h2>
+          <p>Contactez-nous via notre localisation et coordonnees ci-dessous</p>
+        </div>
+      </div>
+
+      <div class="map"  data-aos="fade-right">
+        
+        <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15860.834388709258!2d2.3743598395507806!3d6.367045000000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1023559f20574589%3A0x3778826766b57f9!2sVIVI%20P%C3%82TISSERIE!5e0!3m2!1sfr!2sbj!4v1670327172928!5m2!1sfr!2sbj" frameborder="0" allowfullscreen></iframe>
+      </div>
+
+      <div class="container mt-5"   data-aos="zoom-in">
+
+        <div class="info-wrap">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 info">
+              <i class="bi bi-geo-alt"></i>
+              <h4>Localisation:</h4>
+              <p>BP Deliouce<br>Cotonou, Benin</p>
+            </div>
+
+            <div class="col-lg-3 col-md-6 info mt-4 mt-lg-0">
+              <i class="bi bi-clock"></i>
+              <h4>Heure d'ouverture:</h4>
+              <p>Lundi-Samedi:<br>8:00 - 23:00</p>
+            </div>
+
+            <div class="col-lg-3 col-md-6 info mt-4 mt-lg-0">
+              <i class="bi bi-envelope"></i>
+              <h4>Email:</h4>
+              <p>info@deliouce.com<br>contact@deliouce.com</p>
+            </div>
+
+            <div class="col-lg-3 col-md-6 info mt-4 mt-lg-0">
+              <i class="bi bi-phone"></i>
+              <h4>Appel:</h4>
+              <p>+229 11 00 11 00<br>+229 00 11 00 11</p>
+            </div>
+          </div>
+        </div>
+
+        <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+          <div class="row">
+            <div class="col-md-6 form-group">
+              <input type="text" name="name" class="form-control" id="name" placeholder="Votre Nom" required>
+            </div>
+            <div class="col-md-6 form-group mt-3 mt-md-0">
+              <input type="email" class="form-control" name="email" id="email" placeholder="Votre Email" required>
+            </div>
+          </div>
+          <div class="form-group mt-3">
+            <input type="text" class="form-control" name="subject" id="subject" placeholder="Objet" required>
+          </div>
+          <div class="form-group mt-3">
+            <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+          </div>
+          <div class="my-3">
+            <div class="loading">Loading</div>
+            <div class="error-message"></div>
+            <div class="sent-message">Votre message a bien ete envoye. Merci!</div>
+          </div>
+          <div class="text-center"><button type="submit">Envoyer votre Message</button></div>
+        </form>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <h3>Delicious</h3>
+      <p>Votre satisfaction,notre fierté d'être à votre services tous les jours.</p>
+      <div class="social-links">
+        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      </div>
+      <div class="copyright">
+        &copy; Copyright <strong><span>Delicious</span></strong>. Tous droits reservés
+      </div>
+      <div class="credits">
+       
+        Developper par  <a href="#">Vétcho le lasse</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    <!-- Preloader 
+    <div id="preloader"></div>-->
+
+  <script>
+  window.addEventListener('load', () => {
+    AOS.init({
+      duration: 1000,
+      easing: 'ease-in-out',
+      once: true,
+      mirror: false
+    })
+  });
+  </script>
+  <!-- Vendor JS Files -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
